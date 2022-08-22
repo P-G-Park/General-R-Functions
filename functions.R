@@ -5,7 +5,6 @@ u25_CysC <- function(CysC, age, sex){
   age <- floor(age)
   if (age == 0) {return("NA")}
   if (age > 25) {return("NA")}
-  if (!(sex %in% c("m","f"))) {return("NA")}
   if (age == 1 & sex == "m") {K = 74.8}
   if (age == 2 & sex == "m") {K = 75.6}
   if (age == 3 & sex == "m") {K = 76.5}

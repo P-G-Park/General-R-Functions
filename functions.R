@@ -49,7 +49,7 @@ u25_CysC <- function(CysC, age, sex){
 #
 
 #
-u25_Cr <-  function(CysC, age, height, sex){
+u25_Cr <-  function(Cr, age, height, sex){
   K = 0
   age <- floor(age)
   if (age == 0) {return("NA")}
@@ -91,7 +91,7 @@ u25_Cr <-  function(CysC, age, height, sex){
   if (age == 16 & sex == "f") {K = 39.5}
   if (age == 17 & sex == "f") {K = 40.4}
   if (age >= 18 & age <= 25 & sex == "f") {K = 41.4}
-  egfr = K*height/CysC
+  egfr = K*height/Cr
   return(egfr)
 }
   

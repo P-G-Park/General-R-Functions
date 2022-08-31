@@ -1,5 +1,7 @@
 require(tidyverse)
 # man = "m", woman = "f"
+# reference: https://doi.org/10.1016/j.kint.2020.10.047
+
 u25_CysC <- function(CysC, age, sex){
   K = 0
   age <- floor(age)

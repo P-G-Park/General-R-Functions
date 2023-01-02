@@ -1,8 +1,6 @@
 
 ### bmi_percentile_per_age.csv
-
 ### height_percentile_per_age.csv
-
 ### weight_percentile_per_age.csv
 
 source: https://knhanes.kdca.go.kr/knhanes/sub08/sub08_02.do

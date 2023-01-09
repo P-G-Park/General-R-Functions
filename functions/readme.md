@@ -33,3 +33,15 @@ before
 after
 
 ![image](https://user-images.githubusercontent.com/111733814/211292632-a0aca697-991a-43c8-ac80-0d01e73ea11d.png)
+
+***
+### eGFR.R
+
+U25 formula
+
+**function *u25_CysC(CysC, age, sex)***
+
+**function *u25_Cr(Cr, age, height, sex)***
+
+>Pierce CB, Muñoz A, Ng DK, Warady BA, Furth SL, Schwartz GJ. Age- and sex-dependent clinical equations to estimate glomerular filtration rates in children and young adults with chronic kidney disease. Kidney Int. 2021;99(4):948-956. doi:10.1016/j.kint.2020.10.047
+

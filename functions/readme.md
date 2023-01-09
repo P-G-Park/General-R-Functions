@@ -22,7 +22,7 @@ function for SNUH lab datas (esp. big datas. e.g. SUPREME CDW)
 ### moonBook.R
 
 
-**function Binomial_leave_only_one**
+**function *Binomial_leave_only_one***
 
 before
 

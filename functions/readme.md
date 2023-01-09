@@ -23,6 +23,9 @@ function for SNUH lab datas (esp. big datas. e.g. SUPREME CDW)
 
 ** Binomial_leave_only_one **
 before
+
 ![image](https://user-images.githubusercontent.com/111733814/211292415-b2147647-ecc5-4de6-a294-5dba566f31a5.png)
+
 after
-![image](https://user-images.githubusercontent.com/111733814/211292546-c0971930-e5ab-4d45-83c4-eacafd40fbe0.png)
+
+![image](https://user-images.githubusercontent.com/111733814/211292632-a0aca697-991a-43c8-ac80-0d01e73ea11d.png)

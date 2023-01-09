@@ -3,6 +3,7 @@
 ### lab_value_tidy.R
 
 **function *lab_value_tidy(lab_data)***
+
 function for SNUH lab datas (esp. big datas. e.g. SUPREME CDW)
 
 **'0.02 - 0.02'** -> 0.02

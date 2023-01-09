@@ -28,11 +28,11 @@ function for SNUH lab datas (esp. big datas. e.g. SUPREME CDW)
 
 before
 
-![image](https://user-images.githubusercontent.com/111733814/211292415-b2147647-ecc5-4de6-a294-5dba566f31a5.png)
+![image](https://user-images.githubusercontent.com/111733814/211295536-a34e870c-3869-4d9c-ba34-049e15562a58.png)
 
 after
 
-![image](https://user-images.githubusercontent.com/111733814/211292632-a0aca697-991a-43c8-ac80-0d01e73ea11d.png)
+![image](https://user-images.githubusercontent.com/111733814/211295718-a1a1ddef-590f-421c-b534-12c543afb567.png)
 
 ***
 ### eGFR.R

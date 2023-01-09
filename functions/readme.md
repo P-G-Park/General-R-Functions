@@ -12,9 +12,9 @@ function for SNUH lab datas (esp. big datas. e.g. SUPREME CDW)
 
 **'재검중 0.02 재검'** -> 0.2
 
-**'.'** -> NA
+**'.'** -> *NA*
 
-**'QNS'** -> NA
+**'QNS'** -> *NA*
 
 **'64 재검'** -> 64
 

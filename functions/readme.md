@@ -8,17 +8,17 @@ function for SNUH lab datas (esp. big datas. e.g. SUPREME CDW)
 
 **'0.02 - 0.02'** :arrow_right: 0.02
 
-**'0.06 재검중'** -> 0.06
+**'0.06 재검중'** :arrow_right: 0.06
 
-**'재검중 0.902'** -> 0.902
+**'재검중 0.902'** :arrow_right: 0.902
 
-**'재검중 0.02 재검'** -> 0.2
+**'재검중 0.02 재검'** :arrow_right: 0.2
 
-**'.'** -> *NA*
+**'.'** :arrow_right: *NA*
 
-**'QNS'** -> *NA*
+**'QNS'** :arrow_right: *NA*
 
-**'64 재검'** -> 64
+**'64 재검'** :arrow_right: 64
 
 ***
 ### moonBook.R

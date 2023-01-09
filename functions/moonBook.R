@@ -6,5 +6,7 @@ Binomial_leave_only_one <- function(mytable){
   myt[[1]][TRUE_num] <- myt[[1]][TRUE_num-2]
   myt[TRUE_num,ncol(myt)] <- myt[TRUE_num-2,ncol(myt)]
   myt <- myt[-c(TRUE_num-2, TRUE_num-1),]
+  colnames(myt) <- str_c(colnames(myt), ' ', myt[1,])
+  myt <- myt[-1,]
   return(myt)
 }

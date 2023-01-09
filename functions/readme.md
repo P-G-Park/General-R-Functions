@@ -6,7 +6,7 @@
 
 function for SNUH lab datas (esp. big datas. e.g. SUPREME CDW)
 
-**'0.02 - 0.02'** -> 0.02
+**'0.02 - 0.02'** -> \Rightarrow 0.02
 
 **'0.06 재검중'** -> 0.06
 

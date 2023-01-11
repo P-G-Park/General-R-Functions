@@ -5,7 +5,7 @@ require(tidyverse)
 targetP <- function(age){case_when(age < 13 ~ 6, age >= 13 ~ 5.5)}
 
 # https://doi.org/10.1053/j.ajkd.2008.11.017
-# normal P values (target P) in CKD2 ~ CKD4 children
+# normal P values (hyper P) in CKD2 ~ CKD4 children
 hyperP <- function(age){
   case_when(
     (age >= 0 & age < 0.5) ~ 8.4, 
@@ -17,4 +17,15 @@ hyperP <- function(age){
   )
 }
 
-
+# normal P values (hypoP) in CKD2 ~ CKD4 children
+hypoP <- function(age){
+  case_when(
+    (age >= 0 & age < 0.5) ~ 5.2, 
+    (age >= 0.5 & age < 1) ~ 5.0, 
+    (age >= 1 & age < 6) ~ 4.5, 
+    (age >= 6 & age < 13) ~ 3.6, 
+    (age >= 13 & age < 20) ~ 2.3,
+    age >= 20 ~ 4.5
+  )
+}
+            

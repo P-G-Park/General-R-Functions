@@ -29,3 +29,25 @@ hypoP <- function(age){
   )
 }
             
+# normal Ca values (hyperCa) in CKD2 ~ CKD4 children
+hyperCa <- function(age){
+  case_when(
+    (age >= 0 & age < 3) ~ 11.3, 
+    (age >= 3 & age < 6) ~ 10.8, 
+    (age >= 6 & age < 13) ~ 10.3, 
+    (age >= 13 & age < 20) ~ 10.2,
+    age >= 20 ~ 10.2
+  )
+}
+            
+# normal Ca values (hypoCa) in CKD2 ~ CKD4 children
+hypoCa <- function(age){
+  case_when(
+    (age >= 0 & age < 3) ~ 8.8, 
+    (age >= 3 & age < 6) ~ 9.4, 
+    (age >= 6 & age < 13) ~ 9.4, 
+    (age >= 13 & age < 20) ~ 8.8,
+    age >= 20 ~ 8.8
+  )
+}
+  

@@ -12,6 +12,6 @@ source: https://knhanes.kdca.go.kr/knhanes/sub08/sub08_02.do
 ***
 
 ### census_korean_children.csv
-From statistics Korea, age 1-30, 2008 - 2020 data
+From statistics Korea, age 0-30, 2008 - 2022 data
 
 source: https://kosis.kr/statisticsList/mass/mass_list.jsp?org_id=101&tbl_id=DT_1B04006&vw_cd=MT_ZTITLE&list_id=A_7&process=statHtml

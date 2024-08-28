@@ -95,3 +95,39 @@ u25_Cr <-  function(Cr, age, height, sex){
   return(egfr)
 }
   
+
+fas_cr <- function(cr, sex, age){
+  age = floor(age)
+  q = case_when(
+    age <= 1 ~ 0.26,
+    age == 2 ~ 0.29,
+    age == 3 ~ 0.31,
+    age == 4 ~ 0.34,
+    age == 5 ~ 0.38,
+    age == 6 ~ 0.41,
+    age == 7 ~ 0.44,
+    age == 8 ~ 0.46,
+    age == 9 ~ 0.49,
+    age == 10 ~ 0.51,
+    age == 11 ~ 0.53,
+    age == 12 ~ 0.57,
+    age == 13 ~ 0.59,
+    age == 14 ~ 0.61,
+    age == 15 & sex == 'm' ~ 0.72, 
+    age == 16 & sex == 'm' ~ 0.78, 
+    age == 17 & sex == 'm' ~ 0.82, 
+    age == 18 & sex == 'm' ~ 0.85, 
+    age == 19 & sex == 'm' ~ 0.88, 
+    age >= 20 & sex == 'm' ~ 0.90,
+    age == 15 & sex == 'f' ~ 0.64, 
+    age == 16 & sex == 'f' ~ 0.67, 
+    age == 17 & sex == 'f' ~ 0.69, 
+    age == 18 & sex == 'f' ~ 0.69, 
+    age == 19 & sex == 'f' ~ 0.70, 
+    age >= 20 & sex == 'f' ~ 0.70,
+    TRUE ~ 0.9
+  )
+  return(107.3 * q / cr)
+}
+
+

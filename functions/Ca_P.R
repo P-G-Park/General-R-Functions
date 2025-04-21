@@ -51,3 +51,27 @@ hypoCa <- function(age){
   )
 }
   
+
+# target hb levels: https://pmc.ncbi.nlm.nih.gov/articles/PMC4089684/
+
+anemia <- function(age, sex){
+  case_when(
+    age < 0.5 ~ 9.5,
+    age < 1 ~ 10.5,
+    (age >= 1 & age < 3 & sex == 'Male') ~ 10.7, 
+    (age >= 1 & age < 3) ~ 10.8, 
+    (age >= 3 & age < 6 & sex == 'Male') ~ 11.2, 
+    (age >= 3 & age < 6) ~ 11.1, 
+    (age >= 6 & age < 9 & sex == 'Male') ~ 11.5, 
+    (age >= 6 & age < 9) ~ 11.5, 
+    (age >= 9 & age < 12 & sex == 'Male') ~ 12.0, 
+    (age >= 9 & age < 12) ~ 11.9, 
+    (age >= 12 & age < 15 & sex == 'Male') ~ 12.4, 
+    (age >= 12 & age < 15) ~ 11.7, 
+    (age >= 15 & age < 20 & sex == 'Male') ~ 13.5,
+    (age >= 15 & age < 20) ~ 11.5, 
+    (age >= 20 & sex == 'Male') ~ 13,
+    (age >= 20) ~ 12
+  )
+}
+

@@ -44,7 +44,7 @@ u25_CysC <- function(CysC, age, sex){
     age >= 18 & age <= 25 & sex == "f" ~ 68.3,
     TRUE ~ NA_real_
   )
-  egfr = K*0.01/CysC
+  egfr = K/CysC
   return(egfr)
 }
 #

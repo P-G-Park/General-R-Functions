@@ -14,5 +14,6 @@ Binomial_leave_only_one <- function(mytable){
   myt <- myt %>% mutate_all(str_replace_all, "\\]", ")")
   myt <- myt %>% mutate_all(str_replace_all, "; ", ";")
   myt <- myt %>% mutate_all(str_replace_all, ";", " — ")
+  myt <- myt %>% mutate_all(str_replace_all,  "^(?:\\s+)|(?<=\\()\\s+", , "")
   return(myt)
 }
